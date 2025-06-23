@@ -1,3 +1,15 @@
+
+
+## Proyecto
+
+
+Proyecto creado con Astro. 
+
+Para vos, Agus, Astro es lo que se llama un "framework" 
+en el ámbito web que sirve para no tener que reinventar la rueda.
+
+---
+
 # Astro Starter Kit: Basics
 
 ```sh
