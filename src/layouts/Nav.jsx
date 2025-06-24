@@ -1,24 +1,19 @@
-import data from '../utils/data.js'
+ import {data} from '../utils/data.js'
 
-export function Nav(){
-return (
-<nav>
-  <ul>
-    {NavList} 
-  </ul>
-</nav>
-)
-}
+ export function Nav(){
 
-function NavList(){
-
-    const listItems = data.map(items => 
-        <li key={items.id}>
-          <a href={items.url}>{items.text}</a>
-        </li>
-      ) 
+  const listItems = data.map((res) => (
+  <li key={res.id}>
+    <a href={res.url}>{res.text}</a>
+  </li>
+  ))
 
 return (
-    {listItems}
+    <nav>
+      <ul>
+        {listItems}
+      </ul>
+    </nav>
+
 )
 }

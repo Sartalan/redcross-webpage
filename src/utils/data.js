@@ -1,5 +1,4 @@
-export const data = [
-{
+export const data = [{
   id: 1,
   text: "Home",
   url: "/"
@@ -13,5 +12,4 @@ export const data = [
   id: 3,
   text: "Vacunatorio",
   url: "/Vacunatorio"
-}
-]
+}]
