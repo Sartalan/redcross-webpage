@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Home from './Home.astro'
 import {MapsData} from "../api/MapsData.jsx"
+import Carrousel from "../components/Carrousel.astro"
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
@@ -10,5 +11,8 @@ import {MapsData} from "../api/MapsData.jsx"
   <div class="bg-black h-screen">
     <p class="text-3xl text-white">Soy Home</p>
     <MapsData/>
-</div>
+    <Carrousel/>
+  </div>
+
+  
 </Layout>
