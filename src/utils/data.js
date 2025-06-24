@@ -1,15 +1,33 @@
 export const data = [{
-  id: 1,
+  id: 0,
   text: "Home",
   url: "/"
 },
 {
-  id: 2,
+  id: 1,
   text: "Carreras",
   url: "/Carreras"
 },
 {
-  id: 3,
+  id: 2,
   text: "Vacunatorio",
   url: "/Vacunatorio"
-}]
+},
+{
+  id: 3,
+  text: "Voluntariado",
+  url: "/Voluntariado"
+},
+{
+  id: 4,
+  text: "Cursos",
+  url: "/Cursos"
+},
+{
+  id: 5,
+  text: "Contacto",
+  url: "/Contacto"
+}
+
+
+]
