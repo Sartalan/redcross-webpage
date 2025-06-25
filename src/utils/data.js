@@ -16,10 +16,8 @@ export const data = [{
 {
   id: 3,
   text: "Voluntariado",
-  url: "/Voluntariado",
-  list: {
-      desplegable: true, //If desplegable = true, then the url has an icon.
-    }
+  url: "",
+  items: true,
 },
 {
   id: 4,

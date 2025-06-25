@@ -3,13 +3,23 @@ import { useState } from 'react'
 
 export function Nav(){
 
+//Make a map from the 'data.js' file and 
+//render those files into html dinamic code
+
 const navItems = data.map((res) => (
-<li key={res.id}>
-  <a class="hover:text-red-600" href={res.url}>{res.text}</a>
+
+<li class="flex justify-center items-center" key={res.id}>
+  <a class="hover:text-red-600 text-lg" href={res.url}>{res.text}</a>
+  {
+    res.items ? (
+      <i class="bi bi-arrow-down-short text-2xl text-black"></i>
+    ) : (
+      <i class="invisible"></i>
+    )      
+  }
 
 </li>
 ))
-
 
 const [open, setOpen] = useState(false);
 
@@ -20,7 +30,6 @@ function Data() {
     ? console.log("Es verdadero: ", open)
     : console.log("Es falso: ", open);
 }
-
 
 return ( 
   <nav id="nav" class="w-full md:h-16">
@@ -45,4 +54,5 @@ return (
   </nav>
 )}
 
- 
+// The navigation has a specific height, the state only change
+// the 'ul' tag size. 
