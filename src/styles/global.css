@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+:root {
+  --my-bg-color:#ffffff;
+  --my-header-color:#f5333f;
+  --my-footer-color:#323232;
+}  /* styles.css */
+
+.bg-my-nav {
+  background-color:var(--my-bg-color);
+}
+
+.bg-my-header {
+  background-color:var(--my-header-color);
+}
+
+.bg-my-footer {
+  background-color:var(--my-footer-color);
+}

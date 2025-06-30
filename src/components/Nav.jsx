@@ -30,7 +30,7 @@ export function Nav() {
   }
 
   return (
-    <nav id="nav" className="w-full md:sticky md:z-100 md:left-0 md:top-0  bg-blue-400  md:h-16">
+    <nav id="nav" className="w-full md:sticky md:z-100 md:left-0 md:top-0  bg-my-nav  md:h-16">
       <div className=" w-full flex flex-col">
         <button
           onClick={Data}
@@ -42,7 +42,7 @@ export function Nav() {
       </div>
       <ul
         id="bottom-nav"
-        className={` flex flex-col  justify-center items-center w-full ${open == true ? "h-100" : "h-0"} md:text-center overflow-hidden gap-8 transition-all 
+        className={`bg-my-nav flex flex-col  justify-center items-center w-full ${open == true ? "h-100" : "h-0"} md:text-center overflow-hidden gap-8 transition-all 
     ease-in-out duration-300 md:visible md:flex-row md:h-full`}
       >
         {navItems}
